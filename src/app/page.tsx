@@ -8,7 +8,7 @@ import { useState } from "react";
 import { IoMdArrowDropright } from "react-icons/io";
 
 export default function Home() {
-  const [showSideBar, setShowSideBar] = useState<boolean>(true);
+  const [showSideBar, setShowSideBar] = useState<boolean>(false);
   const [activeScreen, setActiveScreen] = useState<Active>(Active.discussion);
 
   return (

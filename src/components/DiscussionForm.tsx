@@ -1,16 +1,7 @@
-import Image from "next/image";
 import React from "react";
-import { FaRegHeart } from "react-icons/fa6";
-import { LuEye } from "react-icons/lu";
-import { GoComment } from "react-icons/go";
-import { IoShareSocialOutline } from "react-icons/io5";
 import DiscussionCard from "./DiscussionCard";
-import { Active } from "@/types.ds";
+import { Active, DiscussionProps } from "@/types.ds";
 
-type DiscussionProps = {
-  showSideBar: boolean;
-  activeScreen: Active;
-};
 const DiscussionForm = ({ showSideBar, activeScreen }: DiscussionProps) => {
   return (
     <div

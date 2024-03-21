@@ -4,11 +4,8 @@ import { IoIosNotifications } from "react-icons/io";
 import { RiMoneyDollarCircleFill } from "react-icons/ri";
 import { MdOutlineChat } from "react-icons/md";
 import { IoMdArrowDropdown } from "react-icons/io";
+import { SideBarProps } from "@/types.ds";
 
-type SideBarProps = {
-  showSideBar: boolean;
-  setShowSideBar: (val: boolean) => void;
-};
 const data = [
   {
     icon: MdOutlineChat,
