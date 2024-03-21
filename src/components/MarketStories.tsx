@@ -1,6 +1,6 @@
-import { Active } from "@/app/page";
 import React from "react";
 import MarketCard from "./MarketCard";
+import { Active } from "@/types.ds";
 
 const MarketStories = ({ activeScreen }: { activeScreen: Active }) => {
   return (

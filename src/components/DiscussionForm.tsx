@@ -4,8 +4,8 @@ import { FaRegHeart } from "react-icons/fa6";
 import { LuEye } from "react-icons/lu";
 import { GoComment } from "react-icons/go";
 import { IoShareSocialOutline } from "react-icons/io5";
-import { Active } from "@/app/page";
 import DiscussionCard from "./DiscussionCard";
+import { Active } from "@/types.ds";
 
 type DiscussionProps = {
   showSideBar: boolean;

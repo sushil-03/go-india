@@ -1,4 +1,4 @@
-import { Active } from "@/app/page";
+import { Active } from "@/types.ds";
 import React from "react";
 type TopNavigationProps = {
   activeScreen: Active;

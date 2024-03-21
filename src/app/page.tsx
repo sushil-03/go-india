@@ -3,14 +3,10 @@ import DiscussionForm from "@/components/DiscussionForm";
 import MarketStories from "@/components/MarketStories";
 import SideBar from "@/components/SideBar";
 import TopNavigation from "@/components/TopNavigation";
-import Image from "next/image";
+import { Active } from "@/types.ds";
 import { useState } from "react";
 import { IoMdArrowDropright } from "react-icons/io";
 
-export enum Active {
-  discussion = "discussion",
-  market = "market",
-}
 export default function Home() {
   const [showSideBar, setShowSideBar] = useState<boolean>(true);
   const [activeScreen, setActiveScreen] = useState<Active>(Active.discussion);
